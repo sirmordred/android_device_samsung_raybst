@@ -1,0 +1,23 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.adb.secure=1
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=1
+persist.sys.usb.config=adb
+
+
+#
+# SAMSUNG_PROPERTIES
+# FOR ASSERT CHECKS
+# JUST IN CASE
+#
+ro.product.model=SPH-M840
+ro.product.brand=samsung
+ro.product.name=raybst
+ro.product.device=raybst
+ro.product.board=MSM7630_SURF
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=samsung
