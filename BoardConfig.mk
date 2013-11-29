@@ -29,9 +29,9 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Kernel
-#TARGET_KERNEL_SOURCE := kernel/samsung/raybst
-#TARGET_KERNEL_CONFIG := raybst_defconfig
-TARGET_PREBUILT_KERNEL := device/samsung/raybst/prebuilts/kernel/zImage
+TARGET_KERNEL_SOURCE := kernel/samsung/raybst
+TARGET_KERNEL_CONFIG := raybst_defconfig
+#TARGET_PREBUILT_KERNEL := device/samsung/raybst/prebuilts/kernel/zImage
 
 # Mounts
 TARGET_RECOVERY_FSTAB := device/samsung/raybst/fstab.qcom
