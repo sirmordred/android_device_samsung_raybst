@@ -1,7 +1,0 @@
-[
- {
-   "repository": "rbheromax/android_kernel_samsung_raybst",
-   "target_path": "kernel/samsung/raybst",
-   "branch": "cm-11.0"
- }
-]
