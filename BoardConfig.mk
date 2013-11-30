@@ -30,17 +30,8 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/raybst
-TARGET_KERNEL_CONFIG := raybst_defconfig
-#TARGET_PREBUILT_KERNEL := device/samsung/raybst/prebuilts/kernel/zImage
+TARGET_KERNEL_CONFIG := cyanogen_raybst_defconfig
 
 # Mounts
 TARGET_RECOVERY_FSTAB := device/samsung/raybst/fstab.qcom
 RECOVERY_FSTAB_VERSION := 2
-
-# Recovery
-BOARD_CUSTOM_GRAPHICS  := ../../../device/samsung/raybst/recovery/minui/graphics.c
-
-# TWRP
-DEVICE_RESOLUTION := 480x800
-RECOVERY_SDCARD_ON_DATA := true
-BOARD_HAS_NO_REAL_SDCARD := true
